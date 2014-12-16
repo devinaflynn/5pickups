@@ -1,0 +1,114 @@
+// Place all the styles related to the Static_Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(//fonts.googleapis.com/css?family=Lato:400,900);
+
+body {
+
+
+    color: #ffffff !important;
+     font-family: "Lato","Helvetica Neue","Arial","Helvetica",sans-serif !important;
+     font-size: 13px;
+      ine-height: 19.5px;
+
+ 
+.panel-default {
+      
+      background-color: #efefef !important;
+      padding-left: 50px !important;
+      padding-top: 50px !important;
+      padding-right: 50px !important;
+}
+  
+ 
+}
+
+.container {
+  
+  padding-top: 80px;
+}
+
+
+.ha-bg-parallax {
+
+    background: url(http://i.imgur.com/DF7I1MJ.png) 100% -195px no-repeat fixed;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+
+    height: 450px;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+    display: table;
+
+    vertical-align: middle;
+
+    padding-bottom: 20px;
+
+}
+
+
+
+.ha-bg-parallax .ha-parallax-body {
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+
+
+.ha-bg-parallax .ha-content-whitecolor {
+
+    font-size: 17px;
+
+    color: #ffffff;
+
+    width: 70%;
+
+    margin: auto;
+
+}
+
+
+
+.ha-bg-parallax .ha-diamond-divider-md {
+
+    margin: 15px 0px;
+
+}
+
+
+
+.ha-bg-parallax .ha-heading-parallax {
+
+    font-style: italic;
+
+    font-weight: bold;
+
+    text-transform: none;
+
+    color: #ffffff;
+
+    padding-bottom: 0px;
+
+}
+
+.container2 {
+  
+  color: #000 !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
