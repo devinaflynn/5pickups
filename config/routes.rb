@@ -9,6 +9,10 @@ Rails.application.routes.draw do
  
     get 'fantasy_basketball' => 'static_pages#fantasy_basketball'
     get 'fantasy_basketball_week_8' => 'static_pages#fantasy_basketball_week_8'
+    get 'fantasy_basketball_week_7' => 'static_pages#fantasy_basketball_week_7'
+    get 'fantasy_basketball_week_6' => 'static_pages#fantasy_basketball_week_6'
+
+    get 'fantasy_basketball_news' => 'static_pages#fantasy_basketball_news'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
