@@ -2,13 +2,17 @@
   <div class="container-fluid">
     <div class="navbar-header">
       
-       <%= link_to "Home", fantasy_basketball_path, class: "btn btn-default", style: "margin-top:10px;" %>
-       <%= link_to "Highlights", fantasy_basketball_videos_path, class: "btn btn-success", style: "margin-top:10px;" %>
-        <%= link_to "Fantasy Hub", fantasy_basketball_hub_path, class: "btn btn-danger", style: "margin-top:10px;" %>
-       <%= link_to "News", fantasy_basketball_news_path, class: "btn btn-primary", style: "margin-top:10px;" %>
+       <a class="navbar-brand" href="/fantasy_basketball">
+        <img alt="Brand" src="http://i.imgur.com/peLEDec.png">
+      </a>
+        <ul class="nav navbar-nav navbar-right">  
+
+      <li> <%= link_to "Highlights", fantasy_basketball_videos_path, class: "btn btn-inverse", style: "margin-top:10px;"%></li>
+     <li> <%= link_to "Fantasy Hub", fantasy_basketball_hub_path, class: "btn btn-inverse", style: "margin-top:10px;" %></li>
+      <li> <%= link_to "News", fantasy_basketball_news_path, class: "btn btn-inverse", style: "margin-top:10px;" %></li>
        
    
-      
+      </ul>
     </div>
   </div>
 </nav>
