@@ -16,3 +16,6 @@ end
 def fantasy_basketball_news
 end
 
+def fantasy_basketball_hub
+end
+
