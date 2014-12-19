@@ -19,3 +19,6 @@ end
 def fantasy_basketball_hub
 end
 
+def fantasy_basketball_strategy
+end
+

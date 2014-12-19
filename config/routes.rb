@@ -13,8 +13,9 @@ Rails.application.routes.draw do
     get 'fantasy_basketball_week_6' => 'static_pages#fantasy_basketball_week_6'
 
     get 'fantasy_basketball_news' => 'static_pages#fantasy_basketball_news'
-     get 'fantasy_basketball_hub' => 'static_pages#fantasy_basketball_hub'
-      get 'fantasy_basketball_videos' => 'static_pages#fantasy_basketball_videos'
+    get 'fantasy_basketball_hub' => 'static_pages#fantasy_basketball_hub'
+    get 'fantasy_basketball_videos' => 'static_pages#fantasy_basketball_videos'
+    get 'fantasy_basketball_strategy' => 'static_pages#fantasy_basketball_strategy'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
