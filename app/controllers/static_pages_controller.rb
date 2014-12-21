@@ -22,3 +22,6 @@ end
 def fantasy_basketball_strategy
 end
 
+def fantasy_basketball_waiver_wire_strategy
+end
+
