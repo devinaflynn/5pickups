@@ -24,4 +24,8 @@ end
 
 def fantasy_basketball_waiver_wire_strategy
 end
+ 
+def fantasy_basketball_waiver_wire_week_9
+end
+
 
